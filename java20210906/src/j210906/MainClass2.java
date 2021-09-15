@@ -1,0 +1,18 @@
+package j210906;
+
+public class MainClass2 {
+	public static void main(String[] args) {
+		Malamute m = new Malamute();
+		
+		System.out.println(m instanceof Malamute);
+		System.out.println(m instanceof Pet);
+		System.out.println(m instanceof KindaDog);
+		System.out.println(m instanceof SledDog);
+		
+		SledDog s1 = m;
+		s1.pull();
+		
+		Pet p1 = m;
+		p1.sit();
+	}
+}
