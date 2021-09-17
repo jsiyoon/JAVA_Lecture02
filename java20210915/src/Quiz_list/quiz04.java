@@ -1,4 +1,4 @@
-package Quiz;
+package Quiz_list;
 
 public class quiz04 {
 	public int remainder(int num) {

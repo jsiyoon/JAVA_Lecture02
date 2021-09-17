@@ -1,5 +1,5 @@
 
-package Quiz;
+package Quiz_list;
 
 import static org.junit.jupiter.api.Assertions.*;
 

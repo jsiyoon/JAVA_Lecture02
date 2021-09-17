@@ -1,4 +1,4 @@
-package Quiz;
+package Quiz_list;
 
 public class Account2 {
 	private String ano;

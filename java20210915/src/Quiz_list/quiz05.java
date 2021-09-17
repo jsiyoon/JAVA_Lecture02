@@ -1,4 +1,4 @@
-package Quiz;
+package Quiz_list;
 
 public class quiz05 {
 	public int sum(String str) {
