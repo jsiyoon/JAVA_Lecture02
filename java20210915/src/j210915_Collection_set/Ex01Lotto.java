@@ -5,6 +5,8 @@ import java.util.Set;
 
 public class Ex01Lotto {
 	public static void main(String[] args) {
+		//set : 자동 중복제거 , but 자동정렬 안됨.
+		//보통 순서 상관없을때 사용.
 		Set<Integer> lotto = new HashSet<>();
 		
 		while(lotto.size() < 6){
