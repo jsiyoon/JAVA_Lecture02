@@ -1,4 +1,4 @@
-package j210915_generic;
+package j210915_Generic;
 
 public class Ex01 {
 	public static void main(String[] args) {

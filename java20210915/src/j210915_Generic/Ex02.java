@@ -1,4 +1,4 @@
-package j210915_generic;
+package j210915_Generic;
 
 import java.util.List;
 import java.util.Map;
