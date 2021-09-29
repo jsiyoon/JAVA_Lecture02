@@ -12,11 +12,13 @@ public class Ex07 {
 		
 		int n;
 		while((n = r.read()) != -1) {
-			if(map.containsKey((char)n)) {
-				map.put((char)n, map.get((char)n)+1);
-			}else {
-				map.put((char)n, 1);
-			}
+//			if(map.containsKey((char)n)) {
+//				map.put((char)n, map.get((char)n)+1);
+//			}else {
+//				map.put((char)n, 1);
+//			}
+			
+			map.merge((char) n, 1, (old,v) -> old + v);
 		}
 		
 		r.close();		
