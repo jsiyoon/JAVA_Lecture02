@@ -7,7 +7,7 @@ public class ExampleMultiple {
 		try {
 			int i = Integer.parseInt(arr[1]);
 		}catch(ArrayIndexOutOfBoundsException | NumberFormatException e){
-			System.out.println("ÀÍ¼Á¼Ç ¹ß»ı");
+			System.out.println("ìµì…‰ì…˜ë°œìƒ");
 		}
 	}
 }
