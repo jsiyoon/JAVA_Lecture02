@@ -12,6 +12,8 @@ public class Example {
 			System.out.println("어레이인덱스 아웃오브바운즈익셉션");
 		}catch(NumberFormatException e) {
 			System.out.println("넘버포맷익셉션 발생");
+		}catch(Exception e) {
+			System.out.println("익셉션 발생");
 		}
 		
 		
