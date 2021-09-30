@@ -2,22 +2,18 @@ package j210907_finally;
 
 public class Example {
 	public static void main(String[] args) {
-		System.out.println("ÇÁ·Î±×·¥ ½ÃÀÛ");
+		System.out.println("í”„ë¡œê·¸ë¨ ì‹œì‘");
 		
 		try {
 			String[] arr = {"java", "python", "c"};
-			
 			System.out.println(arr[3]);
-			
-			System.out.println("Æ®¶óÀÌ ºí·Ï Á¾·á");
-			
+			System.out.println("íŠ¸ë¼ì´ ë¸”ëŸ­ ì¢…ë£Œ");
 		}catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println("ÀÍ¼Á¼Ç ¹ß»ı");
-			
-			System.out.println("ÀÍ¼Á¼Ç ºí·° Á¾·á");
-		}finally {//¹«Á¶°Ç ½ÇÇàµÇ´Â finally			
-			System.out.println("²À ½ÇÇàµÇ¾î¾ß ÇÏ´Â ÄÚµå");
+			System.out.println("ìµì…‰ì…˜ ë°œìƒ");
+			System.out.println("ìµì…‰ì…˜ ë¸”ëŸ­ ì¢…ë£Œ");
+		}finally {//ë¶€ì¡°ê±´ ì‹¤í–‰ë˜ëŠ” finally			
+			System.out.println("ê¼­ ì‹¤í–‰ë˜ì–´ì•¼ í•˜ëŠ” ì½”ë“œ");
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }
