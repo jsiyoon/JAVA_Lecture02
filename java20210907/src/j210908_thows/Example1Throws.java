@@ -2,11 +2,10 @@ package j210908_thows;
 
 public class Example1Throws {
 	public static void main(String[] args) throws Exception {
-		//¿¹¿ÜÃ³¸® ´Ù¸¥¹æ¹ı
-		//throwsÅ°¿öµå »ç¿ë
-		//È£ÃâÇÑ ¸Ş¼Òµå·Î ´øÁö±â
+		//ì˜ˆì™¸ì²˜ë¦¬ ë‹¤ë¥¸ë°©ë²•
+		//throwsí‚¤ì›Œë“œ ì‚¬ìš©
+		//í˜¸ì¶œí•œ ë©”ì†Œë“œë¡œ ë˜ì§€ê¸°
 		
 		throw new Exception();
-		
 	}
 }

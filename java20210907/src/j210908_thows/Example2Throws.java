@@ -4,16 +4,14 @@ import java.io.FileNotFoundException;
 
 public class Example2Throws {
 	public static void main(String[] args) {
-		
 		try {			
 			method1();
 		}catch(FileNotFoundException e) {
-			System.out.println("ÆÄÀÏÀ» ¸ø Ã£¾Ò½À´Ï´Ù.");
+			System.out.println("íŒŒì¼ì„ ì°¾ì„ ìˆ˜ì—†ìŒ.");
 		}
 	}
 	
 	public static void method1() throws FileNotFoundException {
 		throw new FileNotFoundException();
-		
 	}
 }
