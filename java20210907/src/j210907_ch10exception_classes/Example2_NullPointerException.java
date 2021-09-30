@@ -2,12 +2,12 @@ package j210907_ch10exception_classes;
 
 public class Example2_NullPointerException {
 	public static void main(String[] args) {
-		System.out.println("ÇÁ·Î±×·¥ ½ÃÀÛ");
+		System.out.println("í”„ë¡œê·¸ëž¨ì‹œìž‘");
 		
 		Object o1 = null;
 		method(o1);
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¤»ó Á¾·á");
+		System.out.println("í”„ë¡œê·¸ëž¨ ì‹¤í–‰ ì¢…ë£Œ");
 	}
 
 	public static void method(Object o){

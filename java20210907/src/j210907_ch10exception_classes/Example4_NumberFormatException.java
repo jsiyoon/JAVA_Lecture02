@@ -2,7 +2,7 @@ package j210907_ch10exception_classes;
 
 public class Example4_NumberFormatException {
 	public static void main(String[] args) {
-		System.out.println("ÇÁ·Î±×·¥ ½ÃÀÛ");
+		System.out.println("í”„ë¡œê·¸ëž¨ ì‹œìž‘");
 		
 		String s1 = "100";
 		System.out.println(dbl(s1));
@@ -10,7 +10,7 @@ public class Example4_NumberFormatException {
 		String s2 = "10a0";
 		System.out.println(dbl(s2)); //NumberFormatException
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ëž¨ ì¢…ë£Œ");
 	}
 	public static int dbl(String s) {
 		return Integer.parseInt(s) * 2;
