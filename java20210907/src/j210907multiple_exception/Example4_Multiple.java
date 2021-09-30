@@ -7,10 +7,10 @@ public class Example4_Multiple {
 		try {
 			int n = Integer.parseInt(arr[1]);
 		}catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println("ÀÎµ¦½º ¿À¹ö");
+			System.out.println("ì¸ë±ìŠ¤ ì˜¤ë²„");
 		}catch(Exception e) {
-			System.out.println("ÀÍ¼Á¼Ç ¹ß»ı");
+			System.out.println("ìµì…‰ì…˜ ë°œìƒ");
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }

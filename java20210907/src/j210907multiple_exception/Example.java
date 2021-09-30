@@ -2,19 +2,19 @@ package j210907multiple_exception;
 
 public class Example {
 	public static void main(String[] args) {
-		System.out.println("ÇÁ·Î±×·¥ ½ÃÀÛ");
+		System.out.println("í”„ë¡œê·¸ë¨ ì‹œì‘");
 		String[] arr = {"3", "4", "a"};
 		
 		try {
 			int n = Integer.parseInt(arr[0]);
 			System.out.println(n);
 		}catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println("¾î·¹ÀÌÀÎµ¦½º ¾Æ¿ô¿Àºê¹Ù¿îÁîÀÍ¼Á¼Ç ¹ß»ı");
+			System.out.println("ì–´ë ˆì´ì¸ë±ìŠ¤ ì•„ì›ƒì˜¤ë¸Œë°”ìš´ì¦ˆìµì…‰ì…˜");
 		}catch(NumberFormatException e) {
-			System.out.println("³Ñ¹öÆ÷¸ËÀÍ¼Á¼Ç ¹ß»ı");
+			System.out.println("ë„˜ë²„í¬ë§·ìµì…‰ì…˜ ë°œìƒ");
 		}
 		
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }

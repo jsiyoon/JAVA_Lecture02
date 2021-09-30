@@ -7,16 +7,16 @@ public class Example2_Nested {
 		try {
 			System.out.println(arr1[2]);
 		}catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println("ÀÎµ¦½º ¿À¹ö");
+			System.out.println("ì¸ë±ìŠ¤ ì˜¤ë²„");
 		}finally{
-			System.out.println("²À ½ÇÇàÇØ¾ß ÇÏ´Â ÄÚµå");
+			System.out.println("ê¼­ ì‹¤í–‰í•´ì•¼ í•˜ëŠ” ì½”ë“œ");
 			try {
 				System.out.println(arr1[3]);				
 			}catch(ArrayIndexOutOfBoundsException e) {
-				System.out.println("ÆÄÀÌ³Î¸®ºí·Ï ¾ÈÂÊ Ä³Ä¡ºí·°");
+				System.out.println("íŒŒì´ë„ë¦¬ ë¸”ë¡ ì•ˆìª½ ìºì¹˜");
 			}
 		}
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }
