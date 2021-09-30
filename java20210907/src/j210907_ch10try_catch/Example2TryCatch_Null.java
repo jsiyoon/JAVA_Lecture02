@@ -2,20 +2,20 @@ package j210907_ch10try_catch;
 
 public class Example2TryCatch_Null {
 	public static void main(String[] args) {
-		System.out.println("ÇÁ·Î±×·¥ ½ÃÀÛ");
+		System.out.println("í”„ë¡œê·¸ë¨ ì‹œì‘");
 		
 		method1(null);			
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 	
 	public static void method1(Object o) {
 		
-		//NullPointerException ÇØ°á¹æ¹ı
+		//NullPointerException í•´ê²°ë°©ë²•
 		try {			
 			System.out.println(o.hashCode());
 		}catch(NullPointerException e){
-			System.out.println("³Î Æ÷ÀÎÅÍ ÀÍ¼Á¼Ç ¿À·ùÀÔ´Ï´Ù.");
+			System.out.println("ë„ í¬ì¸í„° ìµì…‰ì…˜ ì˜¤ë¥˜ì…ë‹ˆë‹¤.");
 		}
 	}
 }

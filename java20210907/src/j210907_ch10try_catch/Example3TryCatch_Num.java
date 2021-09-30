@@ -2,18 +2,18 @@ package j210907_ch10try_catch;
 
 public class Example3TryCatch_Num {
 	public static void main(String[] args) {
-		System.out.println("ÇÁ·Î±×·¥ ½ÃÀÛ");
+		System.out.println("í”„ë¡œê·¸ë¨ ì‹œì‘");
 		
 		String str = "10a0";
 		
-		//NumberFormatException ÇØ°á¹æ¹ı
-		try { //Exception¹ß»ı½Ã tryºí·°¾È ´ÙÀ½ ¸í·É¹® ½ÇÇà x
+		//NumberFormatException í•´ê²°ë°©ë²•
+		try { //Exceptionë°œìƒì‹œ tryë¸”ëŸ­ì•ˆ ë‹¤ìŒ ëª…ë ¹ë¬¸ ì‹¤í–‰x
 			int n1 = Integer.parseInt(str);
 			System.out.println(n1*2);
 		}catch(NumberFormatException e) {
-			System.out.println("³Ñ¹öÆ÷¸ËÀÍ¼Á¼Ç ¹ß»ı");
+			System.out.println("ë„˜ë²„í¬ë§·ìµì…‰ì…˜ ë°œìƒ");
 		}
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }

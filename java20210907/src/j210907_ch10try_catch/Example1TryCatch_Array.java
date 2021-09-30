@@ -2,19 +2,19 @@ package j210907_ch10try_catch;
 
 public class Example1TryCatch_Array {
 	public static void main(String[] args) {
-		System.out.println("ÇÁ·Î±×·¥ ½ÃÀÛ");
+		System.out.println("í”„ë¡œê·¸ë¨ ì‹œì‘");
 		int[] arr = {7, 2, 1};
 		
 		System.out.println(arr[0]);
 		
-		//ArrayIndexOutOfBoundsExcepiton¹ß»ı½Ã ¿À·ù ÇØ°á ¹æ¹ı
-		try {//exceptionÀÌ ¹ß»ıÇÒ ¼ö ÀÖ´Â ÄÚµå ºí·°
+		//ArrayIndexOutOfBoundsExcepitonë°œìƒì‹œ ì˜¤ë¥˜ í•´ê²°ë°©ë²•
+		try {//exceptionë°œìƒí•  ìˆ˜ ìˆëŠ” ì½”ë“œë¸”ëŸ­
 			System.out.println(arr[3]);
 		}catch(ArrayIndexOutOfBoundsException e) {
-			//ArrayIndexOutOfBoundsExceptio °´Ã¼°¡ ÀâÇûÀ» ¶§ ½ÇÇàµÇ´Â ºí·°
-			System.out.println("¾î·¹ÀÌÀÎµ¦½º¾Æ¿ô¿Àºê¹Ù¿îÁîÀÍ¼Á¼Ç ¹ß»ı");
+			//ArrayIndexOutOfBoundsException ì¡í˜”ì„ë•Œ ì‹¤í–‰.
+			System.out.println("ì–´ë ˆì´ì¸ë±ìŠ¤ì•„ì›ƒì˜¤ë¸Œë°”ìš´ì¦ˆìµì…‰ì…˜");
 		}
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }

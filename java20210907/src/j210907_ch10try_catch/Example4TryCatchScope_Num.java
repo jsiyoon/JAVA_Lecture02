@@ -2,7 +2,7 @@ package j210907_ch10try_catch;
 
 public class Example4TryCatchScope_Num {
 	public static void main(String[] args) {
-		System.out.println("ÇÁ·Î±×·¥ ½ÃÀÛ");
+		System.out.println("í”„ë¡œê·¸ë¨ ì‹œì‘");
 		
 		String str = "10aa0";
 		
@@ -10,11 +10,11 @@ public class Example4TryCatchScope_Num {
 		try {
 			n = Integer.parseInt(str);
 		}catch(NumberFormatException e) {
-			System.out.println("³Ñ¹öÆ÷¸ËÀÍ¼Á¼Ç ¹ß»ı");
+			System.out.println("ë„˜ë²„í¬ë§·ìµì…‰ì…˜ ë°œìƒ");
 		}
 		System.out.println(n*2);
 		
-		System.out.println("½Ã½ºÅÛÁ¾·á");
+		System.out.println("ì‹œìŠ¤í…œ ì¢…ë£Œ");
 		
 	}
 }

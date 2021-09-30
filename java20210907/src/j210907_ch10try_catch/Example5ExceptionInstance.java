@@ -2,20 +2,20 @@ package j210907_ch10try_catch;
 
 public class Example5ExceptionInstance {
 	public static void main(String[] args) {
-		System.out.println("ÇÁ·Î±×·¥ ½ÃÀÛ");
+		System.out.println("í”„ë¡œê·¸ë¨ ì‹œì‘");
 		
 		int[] arr = {3, 2, 6};
 		
 		try {
 			System.out.println(arr[3]);			
 		}catch(ArrayIndexOutOfBoundsException e) {
-//			System.out.println("¾î·¹ÀÌÀÎµ¦½º ¾Æ¿ô¿Àºê¹Ù¿îÁîÀÍ¼Á¼Ç ¹ß»ı");
-			e.printStackTrace(); //¿¹¿ÜÃâ·Â --> ¹ö±×Ã£´Â ¼Óµµ »¡¶óÁú¼ö ÀÖÀ½.
+//			System.out.println("ì–´ë ˆì´ì¸ë±ìŠ¤ì•„ì›ƒì˜¤ë¸Œë°”ìš´ì¦ˆìµì…‰ì…˜ ë°œìƒ");
+			e.printStackTrace(); //ì˜ˆì™¸ì¶œë ¥ --> ë²„ê·¸ì°¾ëŠ” ì†ë„ ë¹¨ë¼ì§ˆìˆ˜ ìˆìŒ
 			
-			System.out.println("¸Ş½ÃÁö:" + e.getMessage());
-			System.out.println("¿øÀÎ:" + e.getCause());
+			System.out.println("ë©”ì‹œì§€ :" + e.getMessage());
+			System.out.println("ì›ì¸ :" + e.getCause());
 		}
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 	}
 }
