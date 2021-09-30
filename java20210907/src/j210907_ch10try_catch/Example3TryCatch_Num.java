@@ -13,7 +13,6 @@ public class Example3TryCatch_Num {
 		}catch(NumberFormatException e) {
 			System.out.println("넘버포맷익셉션 발생");
 		}
-		
 		System.out.println("프로그램 종료");
 	}
 }
