@@ -10,9 +10,10 @@ public class Ex12 {
 		BufferedReader br = new BufferedReader(reader);
 		
 		String line = br.readLine();
-		
+		int LineNumber = 1;
 		while((line = br.readLine()) != null) {
-			System.out.println(line);
+			System.out.println(LineNumber + ":" + line);
+			LineNumber++;
 		}
 		reader.close();
 		br.close();
